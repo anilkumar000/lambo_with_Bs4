@@ -15,6 +15,7 @@
    -------------------------------------- */
 #featuresHeading
 {
+	margin: none;
 	padding-top: 0px;
 }
 #features {
@@ -35,6 +36,7 @@
 	font-size:20px;
 }
 footer {
+	width: 100%;
 	background: #333;
 	color: #eee;
 	font-size: 15px;
@@ -149,11 +151,7 @@ ul.unstyled {
 }
 
 
-#myCarousel {
-	margin-top: 0px;
 
-
-}
 
 .carousel-caption {
 	font-size: 24px;
@@ -201,9 +199,9 @@ ul.unstyled {
 	height: 50px;
 }
 
-#moreCourses{
+/*#moreCourses{
 	padding-right: 0px;
-}
+}*/
 #logos{
 	width: 200px;
 	height:200px;
@@ -218,9 +216,9 @@ ul.unstyled {
 	color:gold;
 	
 }
-#footerp{
-	margin-left: 13px;
-}
+
+	
+	
 /*#inputEmail{
 	padding-bottom: 10px;
 }*/
@@ -321,10 +319,11 @@ ul.unstyled {
 	#slide3 {
 		background: url('../../img/slide.jpg') top center no-repeat;
 	}
-	#carslides{
+	.carousel-inner{
 	width: 100%;
-	height: 550px;
-}
+	height: 620px;
+	}
+
 #hur{
 	height: 385px;
 	}
@@ -337,6 +336,10 @@ ul.unstyled {
 	h1,h2,h3,h4,h5{
 	font-family: 'Aclonica';
 	font-size:20px;
+	}
+	#myCarousel {
+	margin-top: 0px;
+	height: 620px;
 	}
 
 	/*#hurrican{
