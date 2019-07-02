@@ -8,217 +8,221 @@
 	
 }*/
 
-
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
-#featuresHeading
-{
-	margin: none;
-	padding-top: 0px;
+#featuresHeading {
+  margin: none;
+  padding-top: 0px;
 }
 #features {
-	text-align: center;
+  text-align: center;
 }
 
 #features img {
-	margin:none;
+  margin: none;
 }
 
 #inputMessage {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-
-.logo
-{
-	font-size:20px;
+.logo {
+  font-size: 20px;
 }
 footer {
-	width: 100%;
-	background: #333;
-	color: #eee;
-	font-size: 15px;
-	padding: 10px;
+  background: #333;
+  color: #eee;
+  font-size: 15px;
+  padding: 10px;
 }
 
-
-#social-icons
-{
- font-size: 30px;
-
+#social-icons {
+  font-size: 30px;
 }
-#loginlogo{
-	margin-top: 6px;
+#loginlogo {
+  margin-top: 6px;
 }
-.fa
-{	float:right;
-	padding:3px;
+.fa {
+  float: right;
+  padding: 3px;
 }
-
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
 body {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
 }
 
 .well .page-header {
-	margin-top: 0;
-	background-color: black;
+  margin-top: 0;
+  background-color: black;
 }
 
 .well .page-header h1 {
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 ul.unstyled {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
-
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
 
 #searchInput {
-	width: 200px;
+  width: 200px;
 }
 
 .navbar-brand {
-	padding: 13px 10px;
-	font-family: 'Allan';
-	color:gold;
+  padding: 13px 10px;
+  font-family: "Allan";
+  color: gold;
 }
-#mainlogo{
-	width: 45px;
-	height: 30px;
+#mainlogo {
+  width: 45px;
+  height: 30px;
 }
-.btn{
-	padding:10px 12px;
+.btn {
+  padding: 10px 12px;
 }
 
-   
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-
-
-
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
 
 .alert {
-	margin-top: 20px;
-	display: none;
+  margin-top: 20px;
+  display: none;
 }
 
 .well {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 
 .tabbable img.thumbnail {
-	margin: 0 20px 10px 0;
+  margin: 0 20px 10px 0;
 }
 
 .thumbnails {
-	margin: 20px 0px;
-	width: 100%;
+  padding-left: 20px;
+  margin: 20px 0px;
+  width: 100%;
 }
 
 .thumbnail {
-	position: relative;
+  position: relative;
 }
 
 .thumbnail h2 {
-	font-size: 16px;
-	margin: 0 0 10px;
-	line-height: 20px;
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
 }
 
 .thumbnail span.glyphicon {
-	margin-right: 5px;
+  margin-right: 5px;
 }
-.modal-backdrop{
-	position: relative;
+.modal-backdrop {
+  position: relative;
 }
-
-
-
 
 .carousel-caption {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 .carousel-caption h4 {
-	font-size: 32px;
+  font-size: 32px;
 }
 
-#myCarousel .item { height: 400px; }
+#myCarousel .item {
+  height: 400px;
+}
 
 #slide1 {
-	background: url('../img/slide.jpg') top center no-repeat;
+  background: url("../img/slide.jpg") top center no-repeat;
 }
 
 #slide2 {
-	background: url('../img/slide.jpg') top center no-repeat;
+  background: url("../img/slide.jpg") top center no-repeat;
 }
 
 #slide3 {
-	background: url('../img/slide.jpg') top center no-repeat;
+  background: url("../img/slide.jpg") top center no-repeat;
 }
-#services{
-	margin:0px;
-	padding-top: 10px;
-	font-size:30px;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: underline;
-	font-family: 'Allan';
-	color: gold;
-	background-color: black;
-	width: 100%;
-	height: 50px;
+#services {
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Allan";
+  color: gold;
+  background-color: black;
+  width: 100%;
+  height: 50px;
 }
 
-#newarrivals{
-	padding-top: 10px;
-	font-size:30px;
-	text-align: center;
-	color: gold;
-	font-family: 'Allan';
-	background-color: black;
-	width: 100%;
-	height: 50px;
+#newarrivals {
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: gold;
+  font-family: "Allan";
+  background-color: black;
+  width: 100%;
+  height: 50px;
 }
 
 /*#moreCourses{
 	padding-right: 0px;
 }*/
-#logos{
-	width: 200px;
-	height:200px;
+#logos {
+  width: 200px;
+  height: 200px;
 }
-#map{
-	width: 200px;
-	height:195px;
+#map {
+  width: 200px;
+  height: 195px;
 }
 
-#madal{
-	font-size: 17px;
+#madal {
+  font-size: 17px;
+  color: gold;
+}
+
+#moreInfo {
+  background-color: rgb(71, 62, 62);
+}
+/* .dropdown active a{
 	color:gold;
-	
+} */
+
+/* tab pan */
+/* .tabPan{
+	width:600px;
+
+	padding-right: none;
+} */
+
+/*Jumbotron*/
+
+.jumbo {
+  /* width:600px; */
+  float: right;
+  /* padding-right: none; */
 }
 
-	
-	
 /*#inputEmail{
 	padding-bottom: 10px;
 }*/
@@ -228,125 +232,154 @@ ul.unstyled {
 	padding-right: 30px;
 	}*/
 
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
-	#myCarousel .item { height: 310px; }
-	
-	#slide1 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	#slide2 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	#slide3 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	#slide1,#slide2,#slide3,#carslides{
-	width: 320px;
-	height: 320px;
-	}
-	#hur{
-	height: 75px;
-	} 
-	.navbar-fixed-top {
+  #myCarousel .item {
+    height: 310px;
+  }
+
+  #slide1 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
+
+  #slide2 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
+
+  #slide3 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
+  #slide1,
+  #slide2,
+  #slide3,
+  #carslides {
+    width: 320px;
+    height: 320px;
+  }
+  #hur {
+    height: 75px;
+  }
+  .navbar-fixed-top {
     top: 0;
     height: 50px;
-	}
-	.navbar-brand {
+  }
+  .navbar-brand {
     padding: 13px 10px;
-    font-family: 'Allan';
+    font-family: "Allan";
     color: gold;
     float: left;
-	}
-	#header {
+  }
+  .nav-collapse {
+    padding-top: 35px;
+    background-color: #000000;
+    float: right;
+  }
+  .nav {
+    position: relative;
+  }
+  .navA {
+    height: 10px;
+  }
+
+  #header {
     /*font-size: 30px;*/
-    font-family: 'Aldrich';
-    background-color: transparent;
-    color: black;
-	}
-	h1,h2,h3,h4,h5{
-	font-family: 'Aclonica';
-	font-size:10px;
-	}
+    font-family: "Aldrich";
+    background-color: black;
+    /* color: gold; */
+  }
+  h1,
+  h2,
+  h4,
+  h5 {
+    font-family: "Aclonica";
+    font-size: 10px;
+  }
+  h3 {
+    font-family: "Aclonica";
+    font-size: 14px;
+  }
 
+  #hurrican {
+    width: 100%;
+    height: 320px;
+  }
+  .caption p {
+    font-size: 11px;
+  }
+  /* .dropdown-menu{
+		width:10px;
+	} */
 }
-
-	
-
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
-	#myCarousel .item { height: 310px; }
-	
-	#slide1 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	#slide2 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	#slide3 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	
+  #myCarousel .item {
+    height: 310px;
+  }
+
+  #slide1 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
+
+  #slide2 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
+
+  #slide3 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
+  #myCarousel .item {
+    height: 500px;
+  }
 
-	#myCarousel .item { height: 500px; }
-	
-	#slide1 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	#slide2 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	
-	#slide3 {
-		background: url('../../img/slide.jpg') top center no-repeat;
-	}
-	.carousel-inner{
-	width: 100%;
-	height: 620px;
-	}
+  #slide1 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
 
-#hur{
-	height: 385px;
-	}
-	#header
-{	font-size:30px;
-	font-family: 'Aldrich';
-	background-color: #000000;
-	color:#ffffff;
-	}
-	h1,h2,h3,h4,h5{
-	font-family: 'Aclonica';
-	font-size:20px;
-	}
-	#myCarousel {
-	margin-top: 0px;
-	height: 620px;
-	}
+  #slide2 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
 
-	/*#hurrican{
-		width: 1024px;
-		height:600px;
-	}*/
+  #slide3 {
+    background: url("../../img/slide.jpg") top center no-repeat;
+  }
+  .carousel-inner {
+    width: 100%;
+    height: 620px;
+  }
 
+  #hur {
+    height: 385px;
+  }
+  #header {
+    font-size: 30px;
+    font-family: "Aldrich";
+    background-color: #000000;
+    color: #ffffff;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Aclonica";
+    font-size: 20px;
+  }
+  #myCarousel {
+    margin-top: 0px;
+    height: 620px;
+  }
+
+  #hurrican {
+    width: 100%;
+    height: 620px;
+  }
 }
-
-
